@@ -65,7 +65,7 @@ Headlamp can be extended through plugins that bring common workflows directly in
 
 {{< figure src="add-plugin-catalog.png" alt="Adding plugins from the plugin catalog in the Headlamp interface" >}}
 
-For example, the Flux plugin brings GitOps workflows into Headlamp. It allows teams to view application state alongside the Kubernetes resources that Flux manages, making it easier to understand how changes in Git relate to what is running in the cluster.
+For example, the [Flux plugin](https://github.com/headlamp-k8s/plugins/tree/main/flux) brings GitOps workflows into Headlamp. It allows teams to view application state alongside the Kubernetes resources that Flux manages, making it easier to understand how changes in Git relate to what is running in the cluster.
 
 {{< figure src="add-gitops.png" alt="Viewing and managing GitOps resources in Headlamp using the Flux plugin" >}}
 
